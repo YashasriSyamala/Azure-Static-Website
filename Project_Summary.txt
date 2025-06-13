@@ -1,0 +1,41 @@
+
+📘 Project Summary: Azure Static Website using Terraform
+
+Project Name: Azure Static Website Deployment
+Technology Stack: Azure, Terraform, HTML
+Level: Beginner – Intermediate
+Author: Yashasri Syamala
+
+📝 Description:
+This project demonstrates how to deploy a simple static HTML website to Azure using Infrastructure as Code (IaC) with Terraform.
+
+It automates the provisioning of:
+- An Azure Resource Group
+- An Azure Storage Account with static website hosting
+- Uploading an index.html file
+
+🧱 Folder Structure:
+azure-static-website-terraform/
+├── index.html               # Simple static website page
+├── terraform/
+│   ├── main.tf              # Terraform resource definitions
+│   ├── variables.tf         # Terraform input variables
+│   └── outputs.tf           # Outputs such as website URL
+├── README.md                # GitHub project overview
+├── Project_Summary.txt      # This documentation file
+
+🧩 Key Concepts Covered:
+- Terraform providers and resources
+- Azure Storage static website hosting
+- Resource group and storage automation
+- Output variables to display deployment info
+
+✅ Use Cases:
+- Cloud portfolio project
+- Resume showcase for cloud engineering
+- Learning IaC with Azure
+
+⚙️ Requirements (if running):
+- Azure account
+- Terraform CLI
+- Azure CLI (optional)
